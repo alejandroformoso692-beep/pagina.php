@@ -127,22 +127,23 @@ brawl-dex-php/
 <img width="1890" height="1342" alt="foto link" src="https://github.com/user-attachments/assets/7f0be002-181b-4944-90ad-82a0f865a64b" />
 
 
-### Estructura modular (SSI)
+ Estructura modular (SSI)
 <img width="1812" height="1342" alt="titulo" src="https://github.com/user-attachments/assets/c7bd24bd-4d8f-46c1-b1ba-78ec1d66bc51" />
 <img width="1812" height="1342" alt="fother" src="https://github.com/user-attachments/assets/51e3b498-a990-4e3b-95f7-5fc6608cec3b" />
 
 
-### Navegación dinámica
+ Navegación dinámica
 <img width="1812" height="1342" alt="titulo" src="https://github.com/user-attachments/assets/c7bd24bd-4d8f-46c1-b1ba-78ec1d66bc51" />
 <img width="422" height="19" alt="image" src="https://github.com/user-attachments/assets/c641de8e-d6ab-4003-a564-21331dfa00fa" />
 
 
-### Variables de entorno
-Captura de `.env.example` en el repositorio y de `.gitignore` mostrando la línea `.env`.
+ Variables de entorno
+<img width="282" height="79" alt="image" src="https://github.com/user-attachments/assets/221293f6-7357-40d9-aa40-7ee95000590c" />
+<img width="307" height="338" alt="image" src="https://github.com/user-attachments/assets/098b934d-ebeb-4ee0-8762-a8637b7145d5" />
 
 ---
 
-## 8. Flujo de Git recomendado
+8. Flujo de Git recomendado
 
 ```bash
 git checkout -b feature/migracion-php-ssi
@@ -153,11 +154,3 @@ git commit -m "feat: agrega títulos dinámicos y resaltado de menú activo"
 git commit -m "feat: implementa variables de entorno (.env) y .env.example"
 git push -u origin feature/migracion-php-ssi
 # Crear Pull Request hacia main
-```
-
----
-
-## Autor
-
-Estudiante – Programación Web  
-Trabajo Práctico N° 4 – Unidad 4
