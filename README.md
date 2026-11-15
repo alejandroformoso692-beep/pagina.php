@@ -128,7 +128,9 @@ brawl-dex-php/
 
 
 ### Estructura modular (SSI)
-Capturas del código de `includes/header.php`, `nav.php` y `footer.php`, y de una página (ej. `index.php`) mostrando los `require_once`.
+<img width="1812" height="1342" alt="titulo" src="https://github.com/user-attachments/assets/c7bd24bd-4d8f-46c1-b1ba-78ec1d66bc51" />
+<img width="1812" height="1342" alt="fother" src="https://github.com/user-attachments/assets/51e3b498-a990-4e3b-95f7-5fc6608cec3b" />
+
 
 ### Navegación dinámica
 - Pestaña del navegador con título distinto en cada página (ej. “Meta - Brawl Dex”).
