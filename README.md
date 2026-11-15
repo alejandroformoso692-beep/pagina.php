@@ -133,8 +133,9 @@ brawl-dex-php/
 
 
 ### Navegación dinámica
-- Pestaña del navegador con título distinto en cada página (ej. “Meta - Brawl Dex”).
-- Ítem del menú con clase `active` resaltado según la sección actual.
+<img width="1812" height="1342" alt="titulo" src="https://github.com/user-attachments/assets/c7bd24bd-4d8f-46c1-b1ba-78ec1d66bc51" />
+<img width="422" height="19" alt="image" src="https://github.com/user-attachments/assets/c641de8e-d6ab-4003-a564-21331dfa00fa" />
+
 
 ### Variables de entorno
 Captura de `.env.example` en el repositorio y de `.gitignore` mostrando la línea `.env`.
