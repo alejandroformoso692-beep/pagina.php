@@ -1,30 +1,27 @@
-# Brawl Dex – Trabajo Práctico N° 4
+Brawl Dex – Trabajo Práctico N° 4
 
-**Migración a PHP, Modularización (SSI) y Renderizado Server-Side (SSR)**
+Migración a PHP, Modularización (SSI) y Renderizado Server-Side (SSR)
 
 Aplicación web sobre Brawl Stars migrada de maquetado estático HTML a PHP con includes reutilizables, títulos dinámicos y variables de entorno.
 
 ---
 
-## 1. Descripción del Proyecto
+ 1. Descripción del Proyecto
 
-Este proyecto es la evolución del Hito 1 (maqueta estática) hacia una arquitectura **Server-Side Rendering (SSR)** básica con PHP.
+Este proyecto es la evolución del Hito 1 (maqueta estática) hacia una arquitectura Server-Side Rendering (SSR) básica con PHP.
 
-Se eliminó el código duplicado de header, navegación y footer mediante **Server Side Includes** (`require_once`), se implementaron títulos de página dinámicos y se centralizó la configuración en un archivo `.env`.
+Se eliminó el código duplicado de header, navegación y footer mediante Server Side Includes (`require_once`), se implementaron títulos de página dinámicos y se centralizó la configuración en un archivo `.env`.
 
-**Asignatura:** Programación Web  
-**Unidad:** Unidad 4 – Entorno Servidor y Primeros Pasos con PHP
 
 ---
 
-## 2. Enlace al Prototipo de Figma
+ 2. Enlace al Prototipo de Figma
 
-> *Reemplazar por el enlace real de tu Figma del Hito 1:*  
-> [https://www.figma.com/file/XXXXXXXX/Brawl-Dex](https://www.figma.com)
+https://github.com/alejandroformoso692-beep/pagina.php.git
 
 ---
 
-## 3. Tecnologías Utilizadas
+ 3. Tecnologías Utilizadas
 
 - HTML5
 - CSS3
@@ -35,35 +32,35 @@ Se eliminó el código duplicado de header, navegación y footer mediante **Serv
 
 ---
 
-## 4. Instrucciones de Instalación y Ejecución Local
+ 4. Instrucciones de Instalación y Ejecución Local
 
-### Requisitos previos
+ Requisitos previos
 - XAMPP o Laragon instalado
 - PHP 8.0 o superior
 - Navegador web moderno
 
-### Pasos
+ Pasos
 
-1. **Clonar el repositorio**
+1. Clonar el repositorio
    ```bash
    git clone https://github.com/TU_USUARIO/brawl-dex-php.git
    ```
 
-2. **Copiar a la carpeta del servidor local**
-   - **XAMPP:** copiar la carpeta `brawl-dex-php` dentro de `C:\xampp\htdocs\`
-   - **Laragon:** copiar dentro de `C:\laragon\www\`
+2. Copiar a la carpeta del servidor local
+   - XAMPP: copiar la carpeta `brawl-dex-php` dentro de `C:\xampp\htdocs\`
+   - Laragon: copiar dentro de `C:\laragon\www\`
 
-3. **Configurar variables de entorno**
+3. Configurar variables de entorno
    ```bash
    cd brawl-dex-php
    copy .env.example .env
    ```
    (En Linux/Mac: `cp .env.example .env`)
 
-4. **Iniciar Apache**
-   - Abrir el panel de control de XAMPP/Laragon y activar **Apache**.
+4. Iniciar Apache
+   - Abrir el panel de control de XAMPP/Laragon y activar Apache
 
-5. **Abrir en el navegador**
+5. Abrir en el navegador
    ```
    http://localhost/brawl-dex-php/
    ```
@@ -74,7 +71,7 @@ Se eliminó el código duplicado de header, navegación y footer mediante **Serv
 
 ---
 
-## 5. Estructura del Proyecto
+ 5. Estructura del Proyecto
 
 ```
 brawl-dex-php/
@@ -101,34 +98,34 @@ brawl-dex-php/
 ├── calidad.php
 ├── brawlpass.php
 ├── encuesta.php
-├── .env.example         # Plantilla de configuración (sí va a Git)
-├── .env                 # Valores reales (NO va a Git)
+├── .env.example         
+├── .env                
 ├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 6. Características implementadas (TP4)
+ 6. Características implementadas (TP4)
 
-| Requisito | Implementación |
-|-----------|----------------|
-| Migración a `.php` | Todas las páginas renombradas y funcionando con PHP |
-| Modularización SSI | `header.php`, `nav.php`, `footer.php` incluidos con `require_once` |
-| Título dinámico | Variable `$titulo_pagina` definida antes del include |
-| Menú activo | Clase `active` según `$pagina_actual` |
-| Variables de entorno | Archivo `.env` + `config/env.php` |
-| `.gitignore` | Contiene `.env` |
-| `.env.example` | Presente en el repositorio |
+ Migración a `.php` : Todas las páginas renombradas y funcionando con PHP 
+ Modularización SSI : `header.php`, `nav.php`, `footer.php` incluidos con `require_once` 
+ Título dinámico : Variable `$titulo_pagina` definida antes del include 
+ Menú activo : Clase `active` según `$pagina_actual` 
+ Variables de entorno : Archivo `.env` + `config/env.php` 
+ `.gitignore` : Contiene `.env` 
+ `.env.example` : Presente en el repositorio 
 
 ---
 
-## 7. Evidencia de Funcionamiento
+7. Evidencia de Funcionamiento
 
-> **Nota para la entrega:** reemplazá las siguientes secciones con capturas reales tomadas de tu XAMPP.
 
-### Servidor local ejecutándose
-Captura del navegador mostrando `http://localhost/brawl-dex-php/`
+
+ Servidor local ejecutándose
+
+<img width="1890" height="1342" alt="foto link" src="https://github.com/user-attachments/assets/7f0be002-181b-4944-90ad-82a0f865a64b" />
+
 
 ### Estructura modular (SSI)
 Capturas del código de `includes/header.php`, `nav.php` y `footer.php`, y de una página (ej. `index.php`) mostrando los `require_once`.
