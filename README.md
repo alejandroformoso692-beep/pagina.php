@@ -154,3 +154,31 @@ git commit -m "feat: agrega títulos dinámicos y resaltado de menú activo"
 git commit -m "feat: implementa variables de entorno (.env) y .env.example"
 git push -u origin feature/migracion-php-ssi
 # Crear Pull Request hacia main
+
+
+## Clase 5 - Formularios (GET y POST)
+
+### Descripción de los formularios
+
+- **Formulario GET**: [explica brevemente qué hace, qué campos tiene y para qué se usa].
+- **Formulario POST**: [explica brevemente qué hace, qué campos tiene y para qué se usa].
+- Validaciones implementadas: [menciona las validaciones que hiciste, por ejemplo campos obligatorios, formato de email, etc.].
+
+
+
+
+
+
+## Clase 5 - Formularios (GET y POST)
+
+### Descripción de los formularios
+
+- **Formulario GET**: [explica brevemente qué hace, qué campos tiene y para qué se usa].
+- **Formulario POST**: [explica brevemente qué hace, qué campos tiene y para qué se usa].
+- Validaciones implementadas: [menciona las validaciones que hiciste, por ejemplo campos obligatorios, formato de email, etc.].
+
+### Capturas de pantalla
+
+![Formulario funcionando](clase5/capturas/formulario.png)
+![Procesamiento de datos](clase5/capturas/resultado.png)
+![Mensajes de validación](clase5/capturas/validacion.png)
