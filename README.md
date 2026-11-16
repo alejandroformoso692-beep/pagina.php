@@ -145,22 +145,21 @@ brawl-dex-php/
 
 8. Flujo de Git recomendado
 
-```bash
+
 git checkout -b feature/migracion-php-ssi
-# ... realizar los cambios ...
+realizar los cambios 
 git add .
 git commit -m "feat: migra maquetado HTML a PHP e implementa header/nav/footer dinámicos"
 git commit -m "feat: agrega títulos dinámicos y resaltado de menú activo"
 git commit -m "feat: implementa variables de entorno (.env) y .env.example"
 git push -u origin feature/migracion-php-ssi
-# Crear Pull Request hacia main
+Crear Pull Request hacia main
 
 
 
 
-## Clase 5 -
+Clase 5 -
  Capturas de pantalla
 
-<img width="406" height="398" alt="image" src="https://github.com/user-attachments/assets/7bfc527f-22f1-48fa-9d74-08aa1d25314e" />
-<img width="381" height="329" alt="image" src="https://github.com/user-attachments/assets/bcd1a61a-b29d-4bcf-9395-d154aebbfb91" />
+<img width="1812" height="1342" alt="formulario" src="https://github.com/user-attachments/assets/b51eb373-41ec-4ba9-8edf-a172febb567b" />
 
