@@ -169,16 +169,9 @@ git push -u origin feature/migracion-php-ssi
 
 
 
-## Clase 5 - Formularios (GET y POST)
+## Clase 5 -
+ Capturas de pantalla
 
-### Descripción de los formularios
+<img width="406" height="398" alt="image" src="https://github.com/user-attachments/assets/7bfc527f-22f1-48fa-9d74-08aa1d25314e" />
+<img width="381" height="329" alt="image" src="https://github.com/user-attachments/assets/bcd1a61a-b29d-4bcf-9395-d154aebbfb91" />
 
-- **Formulario GET**: [explica brevemente qué hace, qué campos tiene y para qué se usa].
-- **Formulario POST**: [explica brevemente qué hace, qué campos tiene y para qué se usa].
-- Validaciones implementadas: [menciona las validaciones que hiciste, por ejemplo campos obligatorios, formato de email, etc.].
-
-### Capturas de pantalla
-
-![Formulario funcionando](clase5/capturas/formulario.png)
-![Procesamiento de datos](clase5/capturas/resultado.png)
-![Mensajes de validación](clase5/capturas/validacion.png)
